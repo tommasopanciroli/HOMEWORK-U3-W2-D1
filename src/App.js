@@ -4,10 +4,11 @@ import MyNav from './components/MyNav'
 import MyFooter from './components/MyFooter'
 import Welcome from './components/Welcome'
 // import AllTheBooks from './components/AllTheBooks'
-import { Container } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import BookList from './components/BookList'
 
 import fantasy from './data/fantasy.json'
+import CommentArea from './components/CommentArea'
 
 function App() {
   return (
@@ -16,7 +17,15 @@ function App() {
       <Container>
         <Welcome />
         {/* <AllTheBooks /> */}
-        <BookList books={fantasy} />
+
+        <Row>
+          <Col md={8}>
+            <BookList books={fantasy} />
+          </Col>
+          <Col md={4} className="mt-5">
+            <CommentArea />
+          </Col>
+        </Row>
       </Container>
       <MyFooter />
     </>
