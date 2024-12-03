@@ -19,7 +19,7 @@ class CommentArea extends Component {
         {
           headers: {
             Authorization:
-              'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzRkZDFhNGM5MjI4ZDAwMTVmYWQzNTkiLCJpYXQiOjE3MzMxNTMxODgsImV4cCI6MTczNDM2Mjc4OH0.Fae8Pj5wUFRr0mQM5SBOAK3xWcUkTeq4sWPxlGsGOMQ',
+              'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzRkZDFhNGM5MjI4ZDAwMTVmYWQzNTkiLCJpYXQiOjE3MzMxNTMxODgsImV4cCI6MTczNDM2Mjc4OH0.Fae8Pj5wUFRr0mQM5SBOAK3xWcUkTeq4sWPxlGsGOMQ',
           },
         }
       )
